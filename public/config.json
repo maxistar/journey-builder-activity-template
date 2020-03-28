@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://clever-link-builder.herokuapp.com/journeybuilder/execute",
+          "url": "https://homecomputer.maxistar.me/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -33,22 +33,22 @@
     "configurationArguments": {
       "applicationExtensionKey": "2623ec19-8f2c-454c-b201-3aa478c6e26d",
       "save": {
-        "url": "https://clever-link-builder.herokuapp.com/journeybuilder/save",
+        "url": "https://homecomputer.maxistar.me/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://clever-link-builder.herokuapp.com/journeybuilder/publish",
+        "url": "https://homecomputer.maxistar.me/journeybuilder/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://clever-link-builder.herokuapp.com/journeybuilder/stop",
+        "url": "https://homecomputer.maxistar.me/journeybuilder/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://clever-link-builder.herokuapp.com/journeybuilder/validate",
+        "url": "https://homecomputer.maxistar.me/journeybuilder/validate",
         "verb": "POST",
         "useJwt": true
       }
