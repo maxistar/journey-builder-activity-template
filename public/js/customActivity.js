@@ -13,13 +13,12 @@ define([
     connection.on('initActivity', initialize);
     connection.on('requestedTokens', onGetTokens);
     connection.on('requestedEndpoints', onGetEndpoints);
-
     connection.on('clickedNext', save);
    
     function onRender() {
+
         // JB will respond the first time 'ready' is called with 'initActivity'
         connection.trigger('ready');
-
         connection.trigger('requestTokens');
         connection.trigger('requestEndpoints');
 
@@ -44,8 +43,9 @@ define([
 
         $.each(inArguments, function (index, inArgument) {
             $.each(inArgument, function (key, val) {
-                
-              
+                if (key === 'linkUrl') {
+                    $('#link-url').val(val);
+                }
             });
         });
 
@@ -66,10 +66,10 @@ define([
     }
 
     function save() {
-        var postcardURLValue = $('#postcard-url').val();
-        var postcardTextValue = $('#postcard-text').val();
+        var linkURLValue = $('#link-url').val();
 
         payload['arguments'].execute.inArguments = [{
+            "linkUrl": linkURLValue,
             "tokens": authTokens,
             "emailAddress": "{{Contact.Attribute.PostcardJourney.EmailAddress}}"
         }];
