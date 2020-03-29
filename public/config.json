@@ -21,7 +21,7 @@
                 }									
 			],
           "outArguments": [],
-          "url": "https://homecomputer.maxistar.me/journeybuilder/execute",
+          "url": "https://director.zoo.100millionacademy.com/journeybuilder/execute",
            "verb": "POST",
             "body": "",
             "header": "",
@@ -33,22 +33,22 @@
     "configurationArguments": {
       "applicationExtensionKey": "2623ec19-8f2c-454c-b201-3aa478c6e26d",
       "save": {
-        "url": "https://homecomputer.maxistar.me/journeybuilder/save",
+        "url": "https://director.zoo.100millionacademy.com/journeybuilder/save",
           "verb": "POST",
         "useJwt": true
        },
        "publish": {
-        "url": "https://homecomputer.maxistar.me/journeybuilder/publish",
+        "url": "https://director.zoo.100millionacademy.com/journeybuilder/publish",
            "verb": "POST",
         "useJwt": true
        },
       "stop": {
-        "url": "https://homecomputer.maxistar.me/journeybuilder/stop",
+        "url": "https://director.zoo.100millionacademy.com/journeybuilder/stop",
            "verb": "POST",
         "useJwt": true
       },
       "validate": {
-        "url": "https://homecomputer.maxistar.me/journeybuilder/validate",
+        "url": "https://director.zoo.100millionacademy.com/journeybuilder/validate",
         "verb": "POST",
         "useJwt": true
       }
