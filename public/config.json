@@ -26,7 +26,7 @@
       "body": "",
       "header": "",
       "format": "json",
-      "useJwt": true,
+      "useJwt": false,
       "timeout": 10000
     }
   },
@@ -35,22 +35,22 @@
     "save": {
       "url": "https://clever-link-builder.herokuapp.com/journeybuilder/save",
       "verb": "POST",
-      "useJwt": true
+      "useJwt": false
     },
     "publish": {
       "url": "https://clever-link-builder.herokuapp.com/journeybuilder/publish",
       "verb": "POST",
-      "useJwt": true
+      "useJwt": false
     },
     "stop": {
       "url": "https://clever-link-builder.herokuapp.com/journeybuilder/stop",
       "verb": "POST",
-      "useJwt": true
+      "useJwt": false
     },
     "validate": {
       "url": "https://clever-link-builder.herokuapp.com/journeybuilder/validate",
       "verb": "POST",
-      "useJwt": true
+      "useJwt": false
     }
   },
   "wizardSteps": [
